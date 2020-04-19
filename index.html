@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            function wholeNumber (150) {
+                let Array = [];
+
+                for (var i >=0; i<=150; i++){
+
+                    if (i % 2 == 0) {
+                        return Array.push ("yu")
+                    }
+
+                    else if (i % 3 == 0){
+                        return Array.push ("gi")
+                    }
+
+                    else if (i % 5 == 0) {
+                        return Array.push ("oh")
+                    }
+
+                    else if (i % 2 == 0 && i % 3 == 0){
+                        return Array.push ("yu-gi")
+                    }
+                    else if (i % 2 == 0 && i % 5 == 0) {
+                        return Array.push ("yu-oh") 
+                    }
+
+                    else if (i % 3 == 0 && i % 5 == 0){
+                        return Array.push ("gi-oh") 
+                    }
+
+                    else if (i % 2 == 0 && i % 3 == 0  & i % 5 == 0) {
+                        return Array.push ("yu-gi-oh") 
+                    }
+
+                    else {return Array.push (i)} 
+                };
+                
+                return Array
+                console.log (Array)
+
+            }
+        </script>
+    </body>
+</html>
